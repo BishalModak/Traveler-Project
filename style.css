@@ -1,0 +1,112 @@
+/*Nav part start*/
+.custom-navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 0;
+    padding: 15px 30px;
+}
+
+.custom-width {
+  min-width: unset;
+  width: 60px;
+}
+
+.custom-btn {
+  outline: 1px solid orange;
+}
+
+.custom-btn:hover {
+  background-color: orange;
+  color: white;
+}
+/*Nav part end*/
+
+/* Hero Section Start */
+.hero-original {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.hero-bg-img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+
+.hero-text{
+   margin-top: -300px;
+   padding: 50px;
+}
+
+.hero-text h2{
+    font-size: 90px;
+    color: #181E4B;
+    letter-spacing: -4;
+    line-height: 89px;
+    size: 84px;
+}
+
+.hero-text p{
+    text-align: justify;
+   width: 70%;
+}
+
+.hero-img{
+    margin-top: -350px;
+}
+
+.hero-img img{
+    width: 700px;
+}
+
+.find-btn{
+    background-color: orange;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+}
+
+.play-btn{
+    background: none;
+    border: none;
+    color: gray;
+    font-size: 16px;
+    cursor: pointer;
+}
+.play-btn .fa-solid{
+    padding: 10px;
+    border-radius: 60%;
+    background: #DF6951;
+    color: white;
+}
+
+/* Hero Section Start */
+
+/*Service Part Start*/
+
+.custom-service{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.custom-service img{
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+}
+.custom-card{
+    margin: 50px;
+}
+
+.custom-card .card:hover{
+   transform: translateY(-8px);
+   transition: all 0.3s ease;
+   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+}
+
+/*Service Part End*/
