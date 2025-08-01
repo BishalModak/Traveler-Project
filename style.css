@@ -397,7 +397,6 @@
   font-size: 14px;
 }
 
-
 /*Footer Part End*/
 
 /* Responsive Styles */
@@ -406,7 +405,7 @@
     font-size: 70px;
     line-height: 75px;
   }
-  
+
   .hero-img img {
     width: 600px;
   }
@@ -417,16 +416,16 @@
     font-size: 60px;
     line-height: 65px;
   }
-  
+
   .hero-img img {
     width: 500px;
   }
-  
+
   .trip-container {
     width: 85%;
     margin: 70px auto 0;
   }
-  
+
   .review-container {
     width: 85%;
   }
@@ -437,37 +436,37 @@
   .custom-navbar {
     padding: 10px 15px;
   }
-  
+
   /* Hero Section */
   .hero-container {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .hero-text {
     margin-top: -350px;
     padding: 20px;
   }
-  
+
   .hero-text h2 {
     font-size: 50px;
     line-height: 55px;
   }
-  
+
   .hero-text p {
     width: 100%;
     text-align: center;
   }
-  
+
   .hero-img {
     margin-top: 30px;
   }
-  
+
   .hero-img img {
     width: 100%;
     max-width: 500px;
   }
-  
+
   /* Services */
   .service-container {
     margin-top: 500px;
@@ -476,55 +475,59 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-  
+
   /* Selling */
   .selling-container .custom-card {
     flex-wrap: wrap;
   }
-  
+
   /* Book Trip */
   .trip-container {
     width: 90%;
   }
-  
+
   .booktrip-right {
     margin-top: 50px;
   }
-  
+
   .trip-progress {
     width: 80%;
     left: 50px;
   }
-  
+
   /* Review */
   .review-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  
+
   .review-container img {
     left: 0;
     margin-bottom: -30px;
   }
-  
+
   .review-card {
     width: 100%;
     max-width: 500px;
   }
-  
+
   .review-box {
     left: 0;
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
   }
-  
+
+  .dots {
+    visibility: hidden;
+  }
+
   /* Newsletter */
   .subscribe-section {
     padding: 60px 30px;
   }
-  
+
   .subscribe-section h2 {
     font-size: 1.8rem;
   }
@@ -533,10 +536,7 @@
     justify-content: center;
     padding: 0 50px;
     gap: 30px;
-}
-.dots{
-  visibility: hidden;
-}
+  }
 }
 
 @media (max-width: 767px) {
@@ -544,36 +544,34 @@
   .navbar-nav {
     align-items: flex-start;
   }
-  
+
   .navbar-nav .nav-item {
     padding: 5px 0;
   }
 
-  .hero-text{
+  .hero-text {
     margin-top: -300px;
   }
-  
+
   /* Hero Section */
   .hero-text h2 {
     font-size: 40px;
     line-height: 45px;
   }
-  
+
   .hero-bg-img {
     height: 400px;
   }
-  
-  
-  
+
   /* Book Trip */
   .trip-container .row {
     flex-direction: column;
   }
-  
+
   .booktrip-right {
     margin-top: 50px;
   }
-  
+
   /* Sponsor */
   .sponsor-container {
     flex-wrap: wrap;
@@ -581,26 +579,26 @@
     padding: 0 50px;
     gap: 30px;
   }
-  
+
   .sponsor-container img {
     width: 120px;
   }
-  
+
   /* Footer */
   .footer .row > div {
     margin-bottom: 30px;
     text-align: center;
   }
-  
+
   .footer .desc {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .footer .social-icons {
     justify-content: center;
   }
-  
+
   .footer .app-badges {
     justify-content: center;
   }
@@ -611,67 +609,68 @@
   .hero-text {
     margin-top: -290px;
   }
-  
+
   .hero-text h2 {
     font-size: 32px;
     line-height: 38px;
   }
-  
+
   .hero-buttons {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  
-  .find-btn, .play-btn {
+
+  .find-btn,
+  .play-btn {
     width: 100%;
     margin-top: 15px;
   }
-  
+
   /* Services */
   .service-container h2 {
     font-size: 28px;
   }
-  
+
   /* Selling */
   .selling-container h2 {
     font-size: 28px;
   }
-  
+
   /* Book Trip */
   .trip-container h1 {
     font-size: 28px;
   }
-  
+
   .booktrip-card {
     width: 100%;
   }
-  
+
   .trip-progress {
     width: 90%;
     left: 15px;
   }
-  
+
   /* Review */
   .review-card {
     height: auto;
     padding-bottom: 20px;
   }
-  
+
   /* Newsletter */
   .subscribe-section {
     padding: 40px 20px;
     border-radius: 30px;
   }
-  
+
   .subscribe-section h2 {
     font-size: 1.4rem;
   }
-  
+
   .subscribe-input {
     flex-direction: column;
   }
-  
+
   .send-icon {
     top: -10px;
     right: -10px;
@@ -680,26 +679,27 @@
   }
 }
 
-/* Additional small screen adjustments */
 @media (max-width: 400px) {
   .hero-text h2 {
     font-size: 28px;
     line-height: 34px;
   }
-  
+
   .hero-text p {
     font-size: 14px;
   }
-  
-  .service-container, .selling-container {
+
+  .service-container,
+  .selling-container {
     padding: 0 15px;
   }
-  
+
   .custom-card {
     margin: 30px 0;
   }
-  
-  .trip-container, .review-container {
+
+  .trip-container,
+  .review-container {
     width: 95%;
     margin: 50px auto 0;
   }
